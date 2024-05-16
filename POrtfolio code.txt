@@ -1,0 +1,310 @@
+POrtfolio code
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solar System</title>
+    </head>
+    <body>
+        <h1 style="font-family: Cursive; font-size: 70px"> Solar System </h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Planets2013.svg" alt="Solar System image" height= "250px" width="700px">
+        <p>The solar system consists of the sun and everything that orbits the sun. This includes the eight planets and their moons, the dwarf planets, asteroids, comets and other small objects.
+        </p>
+
+        <p> All the planets and dwarf planets, the rocky asteroids, and the icy bodies in the Kuiper belt move around the Sun in elliptical orbits in the same direction that the Sun rotates. This motion is termed prograde, or direct, motion.
+        </p>
+        <p><strong><u> Planets in the solar system: </u></strong> </p>
+        <table>
+            <tr>
+                <th>No. </th>
+                <th>Planet Name </th>
+                <th>Distance from Sun (in million km)</th>
+            </tr>
+            <tr>
+                <td>1 </td> <td>Mercury</td> <td>57.91 m km</td>
+            </tr>
+            <tr>
+                <td>2 </td> <td>Venus</td> <td>108.2 m km</td>
+            </tr>
+            <tr>
+                <td>3 </td> <td>Earth</td> <td>149.6 m km</td>
+            </tr>
+            <tr>
+                <td>4 </td> <td>Mars</td> <td>227.9 m km</td>
+            </tr>
+            <tr>
+                <td>5 </td> <td>Jupiter</td> <td>778.5 m km</td>
+            </tr>
+            <tr>
+                <td>6 </td> <td>Saturn</td> <td>1.434 b km</td>
+            </tr>
+            <tr>
+                <td>7 </td> <td>Uranus</td> <td>2.871 b km</td>
+            </tr>
+            <tr>
+                <td>8</td> <td>Neptune</td> <td>4.495 billion km</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solar System</title>
+        <style>
+            table,th,td {
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body style="background-color:wheat">
+        <h1 style="font-family: Cursive; font-size: 70px; color:rgb(139,0,0)"> Solar System </h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Planets2013.svg" alt="Solar System image" height= "250px" width="700px">
+        <p>The solar system consists of the sun and everything that orbits the sun. This includes the eight planets and their moons, the dwarf planets, asteroids, comets and other small objects.
+        </p>
+
+        <p> All the planets and dwarf planets, the rocky asteroids, and the icy bodies in the Kuiper belt move around the Sun in elliptical orbits in the same direction that the Sun rotates. This motion is termed prograde, or direct, motion.
+        </p>
+        <p><strong><u> Planets in the solar system: </u></strong> </p>
+        <table style="border: 2px solid black">
+            <tr style="background-color:yellow">
+                <th>No. </th>
+                <th>Planet Name </th>
+                <th>Distance from Sun </th>
+            </tr>
+            <tr>
+                <td>1 </td> <td>Mercury</td> <td>57.91 m km</td>
+            </tr>
+            <tr>
+                <td>2 </td> <td>Venus</td> <td>108.2 m km</td>
+            </tr>
+            <tr>
+                <td>3 </td> <td>Earth</td> <td>149.6 m km</td>
+            </tr>
+            <tr>
+                <td>4 </td> <td>Mars</td> <td>227.9 m km</td>
+            </tr>
+            <tr>
+                <td>5 </td> <td>Jupiter</td> <td>778.5 m km</td>
+            </tr>
+            <tr>
+                <td>6 </td> <td>Saturn</td> <td>1.434 b km</td>
+            </tr>
+            <tr>
+                <td>7 </td> <td>Uranus</td> <td>2.871 b km</td>
+            </tr>
+            <tr>
+                <td>8</td> <td>Neptune</td> <td>4.495 billion km</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+//html code
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Document</title>
+  </head>
+  <body>
+      <section id="home">
+        <header>
+          Unit Conversions
+        </header>
+        <nav>
+          <div>
+            <a href="#temperature"><button>Temperature</button></a>
+            <a href="#weight"><button>Weight</button></a>
+            <a href="#distance"><button>Distance</button></a>
+          </div>
+        </nav>
+      </section>    
+
+      <div id="all-conversion-sections">
+
+        <section id="temperature">
+          <div id="tmp">
+            <figure>
+              <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" width="150px"/>
+              <figcaption>Celcius to Farenheit Conversion</figcaption>
+            </figure>
+            <article>
+
+              <fieldset>
+                <legend>Temperature</legend>
+                <label for="Temperature">Celsius</label> <br/>
+
+ <input type="number" id="c"> <br/>
+
+                <button id="temperature"> Convert </button> <br/>
+
+                <input type="number" id="f"> <br/>
+
+ <label for="Temperature">Fahrenheit</label>
+              </fieldset>
+              <aside>
+                To convert celsuis to fahrenheit yourself, use this formula replacing the `C` with your temperature in celsuis: (C × 9/5) + 32
+              </aside>
+            </article>
+          </div>
+        </section>
+
+      
+        <section id="weight">          
+          <div id="wgt">
+            <figure>
+              <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/weight.png"  width="150px"/>
+              <figcaption>Kilograms to Pound Conversion</figcaption>
+            </figure>
+            <article>
+              <fieldset>
+                <legend>Weight</legend>
+                <label for="Weight">KG</label> <br/>
+
+ <input type="number"> <br/>
+
+                <button id="weight"> Convert </button>  <br/>
+
+ 
+                <input type="number">  <br/>
+
+  <label for="Weight">Pounds</label>    
+              </fieldset>
+              <aside>
+                To convert kilograms to pounds yourself, use this formula replacing the `kg` with your weight in kilograms: kg x 2.205
+              </aside>      
+            </article>
+          </div>
+        </section>
+
+        <section id="distance">
+          <div id="dst">
+            <figure>
+              <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/speedo.png"  width="150px"/>
+              <figcaption>Kilometers to Miles Conversion</figcaption>
+            </figure>
+            <article>
+              <fieldset>
+                <legend>Distance</legend>
+                  <label for="Distance">KM</label> <br/>
+
+ <input type="number">  <br/>
+
+                  <button id="distance"> Convert </button> <br/>
+
+                  <input type="number">  <br/>
+
+  <label for="Distance">Miles</label>
+              </fieldset>
+              <aside>
+                To convert kilometers to miles yourself, use this formula replacing the `km` with your distance in kilmeters: km &divide; 1.609
+              </aside>
+    
+            </article>
+          </div>
+        </section>
+
+      </div>
+
+    <div id="go-home">
+      <a href="#home">
+        <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/home.svg"/>
+      </a>
+    </div>
+
+    <footer>Learn more about HTML and CSS as a part of IBM Fullstack Cloud Developer Certification</footer>
+  </body>
+</html>
+
+//css code-------------------------------------------------------------------------------------------------------------------------------------------------
+/* sets the margin of all the element to 10px on all sides and the background-color to black */
+body{
+    margin: 10px;
+    background-color: black;
+}
+
+/* Home section  which has the app name and nav bar. The styling is applied by id */
+
+#home {
+    background-color:  #483355;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+   }
+
+/* Application name inside the home section. The styling is applied by tag name */
+
+  header {
+    font-size: 30px;
+    color: rgb(240, 234, 245);
+    float: left;
+    padding-left: 2cm;
+  }
+
+/* Navigation Bar Container*/
+
+  .topdiv {
+    float: right;
+    padding-right: 1cm;
+  }
+  
+/* Navigation Bar Buttons */
+  .topmenu {
+    color: lightgray;
+    background-color:   #483355;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration:none;
+    border-radius: 1mm;
+  }
+  
+  .topmenu:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: #382742;
+    text-decoration: underline;
+  }
+
+/* Container for all the three conversion calculator sections   */
+#all-conversion-sections{
+    display: grid;
+    justify-content: center;
+}
+
+figure {
+    float:left; 
+    justify-self: auto; 
+    width:200px
+}
+
+img {
+    width: 200px;
+}
+
+figcaption {
+    color:black;
+    font-size: 17px;
+    text-align: center;
+}
+
+button{
+    font-size: 20px;
+    border: transparent;
+    width: fit-content;
+    background-color: rgb(173, 218, 173);
+    border-radius: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
